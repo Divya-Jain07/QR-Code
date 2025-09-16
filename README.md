@@ -51,7 +51,7 @@ The generated QR code will be saved in:
       Enter the name of the downloaded file along with its extension(.png or .jpeg or .jpg):: github_qr.png
 ```
 
-# ✔️ This will generate a red circular QR code on a white background, saved as github_qr.png.
+## ✔️ This will generate a red circular QR code on a white background, saved as github_qr.png.
 
 ### 📌 Notes
 
