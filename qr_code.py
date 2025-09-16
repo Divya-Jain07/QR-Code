@@ -61,6 +61,6 @@ else:
     
 #to save the qrcode
 name=input("Enter the name of the downloaded file along with its extension(.png or .jpeg or .jpg):: ")
-fullpath=os.path.join('C:/Users/divya/.vscode/random/QRCODE/',name)
+fullpath=os.path.join('YOUR FILEPATH HERE',name) #EDIT YOUR FILE PATH HERE
 img.save(fullpath)
 
