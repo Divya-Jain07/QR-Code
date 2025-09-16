@@ -21,13 +21,13 @@ pip install qrcode[pil]
 pip install pillow
 ```
 
-##▶️ How It Works
+## ▶️ How It Works
 
 Run the script:
 ```bash
  python qr_code.py
 ```
-###You will be prompted to enter:
+### You will be prompted to enter:
     1. Your desired link/text
     2. QR version, box size, and border size
     3. Pixel style → circle or rectangle
@@ -39,7 +39,7 @@ The generated QR code will be saved in:
   your filepath edited in line 64
 ```
 
-###💡 Example
+### 💡 Example
 ```text
       Enter your desired link:: https://www.github.com
       Enter version:: 1
@@ -51,9 +51,10 @@ The generated QR code will be saved in:
       Enter the name of the downloaded file along with its extension(.png or .jpeg or .jpg):: github_qr.png
 ```
 
-#✔️ This will generate a red circular QR code on a white background, saved as github_qr.png.
+# ✔️ This will generate a red circular QR code on a white background, saved as github_qr.png.
 
-###📌 Notes
+### 📌 Notes
+
 Version → Determines QR complexity (higher = more data capacity).
 Box size → Controls pixel size.
 Border → Ensures enough quiet space around the QR (minimum 4 recommended).
