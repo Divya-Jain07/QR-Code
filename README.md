@@ -41,14 +41,14 @@ The generated QR code will be saved in:
 
 ### 💡 Example
 ```text
-      Enter your desired link:: https://www.github.com
-      Enter version:: 1
-      Enter box size:: 10
-      Enter border size:: 4
-      Do you want circle or rectangle shaped pixels?? circle
-      Enter the fill color(can provide hexcodes also):: #FF0000
-      Enter the back color(can provide hexcodes also):: white
-      Enter the name of the downloaded file along with its extension(.png or .jpeg or .jpg):: github_qr.png
+Enter your desired link:: https://www.github.com
+Enter version:: 1
+Enter box size:: 10
+Enter border size:: 4
+Do you want circle or rectangle shaped pixels?? circle
+Enter the fill color(can provide hexcodes also):: #FF0000
+Enter the back color(can provide hexcodes also):: white
+Enter the name of the downloaded file along with its extension(.png or .jpeg or .jpg):: github_qr.png
 ```
 
 ## ✔️ This will generate a red circular QR code on a white background, saved as github_qr.png.
@@ -56,6 +56,9 @@ The generated QR code will be saved in:
 ### 📌 Notes
 
 Version → Determines QR complexity (higher = more data capacity).
+
 Box size → Controls pixel size.
+
 Border → Ensures enough quiet space around the QR (minimum 4 recommended).
+
 Colors are converted using Pillow’s ImageColor.getrgb(), so both hex codes and color names are supported.
